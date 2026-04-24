@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Café MERCI</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    body {
+      background-color: #f8f5f2;
+    }
+body {
+  padding-top: 70px;
+}
+    .navbar {
+      background-color: #3e2723 !important;
+    }
+
+    .btn-primary {
+      background-color: #6d4c41;
+      border: none;
+    }
+
+    footer {
+      background-color: #3e2723;
+    }
+
+    .hero {
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+    .whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.hero {
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+  </style>
+</head>
+
+<body>
+  <a href="#" class="whatsapp-float">💬</a>
+<!-- NAVBAR -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Café MERCI</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#avis">Avis</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO مع overlay -->
+<div class="container-fluid p-0">
+  <div style="
+    background-image: url('images/cafe1.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+  ">
+
+    <div class="d-flex justify-content-center align-items-center h-100 text-white">
+      <div class="text-center">
+        <h1 class="fw-bold">Café MERCI - Laâyoune ☕</h1>
+        <p>Un moment unique dans une ambiance chaleureuse</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- SERVICES -->
+ <div class="container mt-5" data-aos="fade-up">
+  <h2 class="text-center mb-4">Nos Services</h2>
+
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>Café & Boissons</h5>
+        <p>Une large sélection de cafés et boissons fraîches.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>Restauration</h5>
+        <p>Des plats délicieux dans un cadre agréable.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>Ambiance</h5>
+        <p>Un espace chaleureux pour se détendre.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MENU -->
+ <div class="container mt-5" id="menu" data-aos="fade-right">
+  <h2 class="text-center mb-4">Notre Menu</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch4.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>PETIT DEJEUNER </h5>
+          <p>(expresse ; continentale ; nature ; shamali )</p>
+          <h6>À partir de 37.00 DH</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch5.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Brunch </h5>
+          <p> (turkey ; healthy ; beldi ; amerecain ; MERCI ) </p>
+          <h6>À partir de 72.00 DH</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch6.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Notre Sélection du Soir </h5>
+          <p> ( morocain ; singapour ; amirican )</p>
+          <h6>À partir de 42.00 DH</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch7.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Crepes Salées  </h5>
+          <p> (mix fromagère ; poulet ; viande hachée ; jambon ; spéciale MERCI ) </p>
+          <h6>À partir de 37.00 DH</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch8.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Sandwiches </h5>
+            <p> (oeuf ; thon ; croque-monsieur ; poulet ; croque-madame ; escalope ; viande hachée ) </p>
+          <h6>À partir de 22.00 DH</h6>
+        </div>
+      </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch9.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Crepes & Pancakes & Gaufre </h5>
+            <p> (nature ; nutella ; extr nutella ; nutella miel ; rafaelle ; pistachio ; MERCI... ) </p>
+          <h6>À partir de 16.00 DH</h6>
+        </div>
+       </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch2.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Desserts </h5>
+            <p> (mahalabia ; chessecace vanille ; chessecake cafe ; cheesecake fraise ; cheesecake blueberry ; cheesecake citron ; salade de fruits) </p>
+          <h6>À partir de 25.00 DH</h6>
+        </div>
+       </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch10.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Smoothies </h5>
+            <p> (strawberry smoothie ; alaska ; mango tango ; marvel ; tropical ; barbie girl ; magic mango) </p>
+          <h6>À partir de 37.00 DH</h6>
+        </div>
+       </div>
+    </div>
+
+        <div class="col-md-4">
+      <div class="card">
+        <img src="images/ch11.jpg" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Cappuccino </h5>
+            <p> (classic ; caramel ; vanilla ; lotus ; noisette) </p>
+          <h6>À partir de 20.00 DH</h6>
+        </div>
+       </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- AVIS -->
+<div class="container mt-5" id="avis">
+  <h2 class="text-center mb-4">Avis Clients</h2>
+
+  <!-- Form -->
+  <div class="mb-4">
+    <input type="text" id="nom" class="form-control mb-2" placeholder="Votre nom">
+    <textarea id="message" class="form-control mb-2" placeholder="Votre avis"></textarea>
+    <button onclick="ajouterAvis()" class="btn btn-primary">Publier</button>
+  </div>
+
+  <!-- Affichage des commentaires -->
+  <div id="liste-avis"></div>
+</div>
+
+<!-- CONTACT -->
+<div class="container mt-5" id="contact" data-aos="zoom-in">
+<div class="container mt-5" id="contact">
+  <h2 class="text-center mb-4">Contactez-nous</h2>
+
+  <p class="text-center">📍 Laâyoune</p>
+
+  <!-- معلومات مؤقتة -->
+  <p class="text-center text-muted">
+    📞 Numéro indisponible pour le moment <br>
+    💬 WhatsApp bientôt disponible
+  </p>
+<div class="container mt-5 animate__animated animate__fadeInUp">
+  <h2 class="text-center mb-4">Notre Localisation</h2>
+
+  <iframe 
+    src="https://maps.google.com/maps?q=Laayoune&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" 
+    height="300" 
+    style="border:0;">
+  </iframe>
+</div>
+
+<div class="container mt-5 animate__animated animate__fadeInUp" id="reservation">
+  <h2 class="text-center mb-4">Réserver une table</h2>
+
+  <form>
+    <input class="form-control mb-2" placeholder="Nom">
+    <input class="form-control mb-2" placeholder="Téléphone">
+    <input type="date" class="form-control mb-2">
+    <input type="time" class="form-control mb-2">
+    <button class="btn btn-success">Réserver</button>
+  </form>
+</div>
+  <!-- FORM -->
+  <form>
+    <input class="form-control mb-2" placeholder="Nom">
+    <input class="form-control mb-2" placeholder="Email">
+    <textarea class="form-control mb-2" placeholder="Message"></textarea>
+    <button class="btn btn-primary">Envoyer</button>
+  </form>
+</div>
+
+<!-- INSTAGRAM -->
+<div class="container text-center mt-5 animate__animated animate__fadeInUp">
+  <h2>Suivez-nous</h2>
+  <p>@MERCILAAYOUNE</p>
+  <a href="https://instagram.com/MERCILAAYOUNE" class="btn btn-primary">Voir Instagram</a>
+</div>
+
+<!-- FOOTER -->
+<footer class="text-white text-center mt-5 p-3 animate__animated animate__fadeInUp">
+  <p>© 2026 Café MERCI - Tous droits réservés</p>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    duration: 1000,  // السرعة
+    once: true       // animation غير مرة وحدة
+  });
+</script>
+<script>
+function ajouterAvis() {
+  let nom = document.getElementById("nom").value;
+  let message = document.getElementById("message").value;
+
+  if(nom === "" || message === "") {
+    alert("Veuillez remplir tous les champs");
+    return;
+  }
+
+  let avis = `
+    <div class="card p-3 mb-2">
+      <strong>${nom}</strong>
+      <p>${message}</p>
+    </div>
+  `;
+
+  document.getElementById("liste-avis").innerHTML += avis;
+
+  // vider champs
+  document.getElementById("nom").value = "";
+  document.getElementById("message").value = "";
+}
+</script>
+</body>
+</html>
